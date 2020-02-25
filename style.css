@@ -66,7 +66,12 @@ img{
   clear:both;
 }
 
-/*** Versione Mobile ***/
+/*** Versione Mobile Tablet portrait ***/
+
+
+
+
+/*** Versione Mobile Phone ***/
 
 @media screen and (max-width:419px) {
 
