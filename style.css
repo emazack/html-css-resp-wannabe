@@ -66,12 +66,12 @@ img{
   clear:both;
 }
 
-/* Versione Mobile */
+/*** Versione Mobile ***/
 
 @media screen and (max-width:419px) {
 
   .row{
-    width: 500px;
+    width: 396px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 40px;
@@ -83,5 +83,12 @@ img{
     float: none;
   }
 
+  /* BLOCCO STEPS */
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right{
+    float: none;
+    width: 100%;
+  }
 
 }
