@@ -68,7 +68,32 @@ img{
 
 /*** Versione Mobile Tablet portrait ***/
 
+@media screen and (max-width:768px) {
 
+  .row{
+    width: 755px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+  }
+
+  /* BLOCCO STEPS */
+  #steps .row > .left{
+    float: left;
+    width: 50%;
+  }
+
+  #steps .row > .central{
+    float: right;
+    width: 50%;
+  }
+
+  #steps .row > .right{
+    float: left;
+    width: 100%;
+  }
+
+}
 
 
 /*** Versione Mobile Phone ***/
